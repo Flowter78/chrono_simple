@@ -32,5 +32,6 @@
   ```bash
   chrono
   ```
-
-*Bref et efficace pour lancer le chrono d’un simple “chrono”.*
+---
+[Arrondir coin d'une image](https://round-corner.imageonline.co/fr/)  
+[Convertir png vers ico](https://convertio.co/fr/download/c8112ef476884f0f935c3482eeb6541702f5e2/)
