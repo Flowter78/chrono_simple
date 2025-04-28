@@ -2,7 +2,10 @@ import tkinter as tk
 import time
 import os
 
-STATE_FILE = 'chrono_state.txt'
+# Déterminer le dossier du script pour y stocker le fichier d'état
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+STATE_FILE = os.path.join(SCRIPT_DIR, 'chrono_state.txt')
+
 
 class Chrono(tk.Tk):
     def __init__(self):

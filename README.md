@@ -1,0 +1,36 @@
+# Chrono README
+
+## Prérequis
+- Python doit être installé et accessible via la variable PATH.
+- Le dossier `C:\Users\flore\MesScripts` doit être inclus dans la variable d'environnement `%PATH%`.
+- (Optionnel) Vérifier que l'extension `.VBS` est listée dans `PATHEXT`.
+
+## Installation
+1. Copier `chrono.py` dans :  
+   `C:\Users\flore\MesScripts`
+2. **VBScript** (recommandé) :
+   ```vbscript
+   Set WshShell = CreateObject("WScript.Shell")
+   WshShell.Run "python ""C:\\Users\\flore\\MesScripts\\chrono.py""", 0
+   ```
+   Placer `chrono.vbs` dans un dossier du PATH permet de lancer le chrono en tapant `chrono`.  
+   
+3. **PowerShell** (alternative) :
+   ```powershell
+   Start-Process -FilePath python `
+     -ArgumentList 'C:\\Users\\flore\\MesScripts\\chrono.py' `
+     -WindowStyle Hidden
+   ```
+   Créer un raccourci Windows (.lnk) dont la cible est :
+   ```
+   C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy Bypass -File "C:\\Users\\flore\\MesScripts\\chrono.ps1"
+   ```
+   Nommer le raccourci `chrono` et le placer dans un dossier du PATH.
+
+## Utilisation
+- Ouvrir **CMD** ou **PowerShell** et taper :
+  ```bash
+  chrono
+  ```
+
+*Bref et efficace pour lancer le chrono d’un simple “chrono”.*
