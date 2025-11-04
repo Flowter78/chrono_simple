@@ -44,6 +44,7 @@ class Chrono(tk.Tk):
         self.bind("<Button-3>", self.close)
 
         self._update_clock()
+        self.toggle()
 
     def _format_time(self, sec):
         h, rem = divmod(sec, 3600)
