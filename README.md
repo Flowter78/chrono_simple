@@ -33,10 +33,9 @@
   chrono
   ```
 
-## Lancer le script au démarrage 
-
-mettre un raccourcis avec la cible suivante : C:\Windows\System32\wscript.exe "C:\Users\flore\MesScripts\chrono_simple\chrono.vbs"
-Dans le dossier suivant: C:\Users\flore\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+## Lancer le script au démarrage
+- mettre un raccourcis avec la cible suivante : C:\Windows\System32\wscript.exe "C:\Users\flore\MesScripts\chrono_simple\chrono.vbs"
+- Dans le dossier suivant: C:\Users\flore\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 ---
 [Arrondir coin d'une image](https://round-corner.imageonline.co/fr/)  
 [Convertir png vers ico](https://convertio.co/fr/download/c8112ef476884f0f935c3482eeb6541702f5e2/)  
